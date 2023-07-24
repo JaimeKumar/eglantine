@@ -1,0 +1,595 @@
+[
+  {
+    "cat": "men",
+    "sleeve": "short",
+    "material": {"polyester": 100},
+    "fit": "relaxed",
+    "colour": ["black", "white", "print"],
+    "title": "TEXTURED FLORAL PRINT SHIRT",
+    "text": "Relaxed fit shirt with a camp collar and short sleeves. Split hem and a button-up front.",
+    "price": 25.99,
+    "img": [
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/491/0794308800_2_1_1.jpg?ts=1686295515886",
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/491/0794308800_1_1_1.jpg?ts=1686295516166",
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/872/0794308800_2_2_1.jpg?ts=1686295516180",
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/872/0794308800_2_3_1.jpg?ts=1686295516081",
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/872/0794308800_6_1_1.jpg?ts=1686757099200",
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/491/0794308800_6_2_1.jpg?ts=1686148772997",
+      "https://static.zara.net/photos///2023/I/0/2/p/0794/308/800/2/w/491/0794308800_6_3_1.jpg?ts=1686148774432"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 100},
+    "fit": "regular",
+    "colour": ["white"],
+    "title": "OXFORD SHIRT",
+    "text": "Regular fit shirt featuring a buttoned collar and long sleeves with buttoned cuffs. Chest patch pocket. Button-up front.",
+    "price": 25.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/8211/311/250/2/w/737/8211311250_2_1_1.jpg?ts=1677493567450",
+      "https://static.zara.net/photos///2023/V/0/1/p/8211/311/250/2/w/737/8211311250_1_1_1.jpg?ts=1677493567779",
+      "https://static.zara.net/photos///2023/V/0/1/p/8211/311/250/2/w/491/8211311250_2_2_1.jpg?ts=1677493566978",
+      "https://static.zara.net/photos///2023/V/0/1/p/8211/311/250/2/w/491/8211311250_2_3_1.jpg?ts=1677493569694",
+      "https://static.zara.net/photos///2023/V/0/1/p/8211/311/250/2/w/491/8211311250_2_4_1.jpg?ts=1677493569216",
+      "https://static.zara.net/photos///2023/V/0/2/p/8211/311/250/2/w/491/8211311250_6_1_1.jpg?ts=1673947752796",
+      "https://static.zara.net/photos///2023/V/0/2/p/8211/311/250/2/w/491/8211311250_6_2_1.jpg?ts=1673947752948",
+      "https://static.zara.net/photos///2023/V/0/2/p/8211/311/250/2/w/491/8211311250_6_3_1.jpg?ts=1673947776984"
+    ],
+    "sale": 8
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 84, "linen": 13, "polyester": 3},
+    "fit": "oversize",
+    "colour": ["beige"],
+    "title": "STRIPED OVERSIZE SHIRT",
+    "text": "Oversize collared shirt featuring long sleeves with buttoned cuffs and a button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/4248/028/300/2/w/491/4248028300_2_1_1.jpg?ts=1676561621464",
+      "https://static.zara.net/photos///2023/V/0/1/p/4248/028/300/2/w/491/4248028300_1_1_1.jpg?ts=1676561623670",
+      "https://static.zara.net/photos///2023/V/0/1/p/4248/028/300/2/w/491/4248028300_2_2_1.jpg?ts=1676561625320",
+      "https://static.zara.net/photos///2023/V/0/1/p/4248/028/300/2/w/491/4248028300_2_3_1.jpg?ts=1676561623250",
+      "https://static.zara.net/photos///2023/V/0/1/p/4248/028/300/2/w/491/4248028300_2_4_1.jpg?ts=1676561621604",
+      "https://static.zara.net/photos///2023/V/0/1/p/4248/028/300/2/w/491/4248028300_2_5_1.jpg?ts=1676561621388",
+      "https://static.zara.net/photos///2023/V/0/2/p/4248/028/300/2/w/491/4248028300_6_1_1.jpg?ts=1676464673408",
+      "https://static.zara.net/photos///2023/V/0/2/p/4248/028/300/2/w/491/4248028300_6_2_1.jpg?ts=1676464681802",
+      "https://static.zara.net/photos///2023/V/0/2/p/4248/028/300/2/w/491/4248028300_6_3_1.jpg?ts=1676464717214"
+    ],
+    "sale": 5
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 100},
+    "fit": "oversize",
+    "colour": ["white", "blue"],
+    "title": "CONTRASTING STRIPED SHIRT",
+    "text": "Oversize fit collared shirt featuring long sleeves with buttoned cuffs. Chest patch pocket. Contrast mesh-textured fabric lining. Asymmetric hem with side vents and a button-up front.",
+    "price": 32.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/460/330/2/w/491/6085460330_2_1_1.jpg?ts=1677772252363",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/460/330/2/w/491/6085460330_1_1_1.jpg?ts=1677772253228",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/460/330/2/w/491/6085460330_2_2_1.jpg?ts=1677772253873",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/460/330/2/w/491/6085460330_2_3_1.jpg?ts=1677772252322",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/460/330/2/w/491/6085460330_2_4_1.jpg?ts=1677772252685",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/460/330/2/w/491/6085460330_2_5_1.jpg?ts=1677772254322",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/460/330/2/w/491/6085460330_6_1_1.jpg?ts=1677752056965",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/460/330/2/w/491/6085460330_6_2_1.jpg?ts=1677752057412",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/460/330/2/w/491/6085460330_6_3_1.jpg?ts=1677752057853",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/460/330/2/w/491/6085460330_6_4_1.jpg?ts=1676461931896"
+    ],
+    "sale": 12
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 60, "polyester": 40},
+    "fit": "regular",
+    "colour": ["white", "blue"],
+    "title": "EASY CARE TEXTURED SHIRT",
+    "text": "Regular fit spread collar shirt featuring long sleeves with buttoned cuffs. Button-up front.",
+    "price": 25.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_2_1_1.jpg?ts=1675251000285",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_1_1_1.jpg?ts=1675251001181",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_2_2_1.jpg?ts=1675250999408",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_2_3_1.jpg?ts=1675250993097",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_2_4_1.jpg?ts=1675250991236",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_2_5_1.jpg?ts=1675251032255",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_6_1_1.jpg?ts=1675178045192",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_6_2_1.jpg?ts=1675178045832",
+      "https://static.zara.net/photos///2023/V/0/2/p/3090/305/105/2/w/491/3090305105_6_3_1.jpg?ts=1675178046290"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "short",
+    "material": {"cotton": 55, "linen": 45},
+    "fit": "relaxed",
+    "colour": ["white"],
+    "title": "LINEN - COTTON LACE TRIM SHIRT",
+    "text": "Relaxed fit shirt made of a cotton and linen blend fabric. Featuring a camp collar and short sleeves. Matching lace trim details all over the garment. Patch pocket on the chest. Button-up front.",
+    "price": 25.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_2_1_1.jpg?ts=1681830032485",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_1_1_1.jpg?ts=1681829423214",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_2_2_1.jpg?ts=1681830031817",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_2_3_1.jpg?ts=1681829411930",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_2_4_1.jpg?ts=1681830031588",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_2_5_1.jpg?ts=1681829439243",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_6_1_1.jpg?ts=1681896256170",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_6_2_1.jpg?ts=1681896266510",
+      "https://static.zara.net/photos///2023/V/0/2/p/1618/305/250/2/w/491/1618305250_6_3_1.jpg?ts=1681896289022"
+    ],
+    "sale": 6
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 100},
+    "fit": "regular",
+    "colour": ["beige"],
+    "title": "SHIRT WITH POCKET",
+    "text": "Regular fit collared shirt featuring long sleeves with buttoned cuffs. Chest patch pocket. Faded effect. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_2_1_1.jpg?ts=1675857829694",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_1_1_1.jpg?ts=1675857836669",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_2_2_1.jpg?ts=1675857831264",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_2_3_1.jpg?ts=1675857837395",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_2_4_1.jpg?ts=1675857829813",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_6_1_1.jpg?ts=1673524292965",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_6_2_1.jpg?ts=1673524289079",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/470/712/2/w/491/7545470712_6_3_1.jpg?ts=1673524315305"
+    ],
+    "sale": 7
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"lyocell": 56, "cotton": 44},
+    "fit": "regular",
+    "colour": ["black"],
+    "title": "LYOCELL - COTTON SHIRT",
+    "text": "Collared shirt in a lyocell and cotton blend. Long sleeves with buttoned cuffs. Chest patch pocket. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_2_1_1.jpg?ts=1673612935210",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_1_1_1.jpg?ts=1673612982856",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_2_2_1.jpg?ts=1673612968745",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_2_3_1.jpg?ts=1673612965682",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_2_4_1.jpg?ts=1673612987134",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_6_1_1.jpg?ts=1673524267923",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_6_2_1.jpg?ts=1673524268000",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/401/2/w/491/7545475401_6_3_1.jpg?ts=1673524315870"
+    ],
+    "sale": 10
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 100},
+    "fit": "regular",
+    "colour": ["blue"],
+    "title": "TEXTURED SHIRT",
+    "text": "Regular fit shirt made of twill textured cotton fabric. Spread collar and long sleeves with buttoned cuffs. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_2_1_1.jpg?ts=1676371365241",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_1_1_1.jpg?ts=1676371366158",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_2_2_1.jpg?ts=1676371366517",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_2_3_1.jpg?ts=1676371366053",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_2_4_1.jpg?ts=1676371365858",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_6_1_1.jpg?ts=1676278722626",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_6_2_1.jpg?ts=1676278724753",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_6_3_1.jpg?ts=1676278752712",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/200/400/2/w/491/0975200400_6_4_1.jpg?ts=1676278726276"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"lyocell": 56, "cotton": 44},
+    "fit": "regular",
+    "colour": ["blue"],
+    "title": "LYOCELL - COTTON SHIRT",
+    "text": "Collared shirt in a lyocell and cotton blend. Long sleeves with buttoned cuffs. Chest patch pocket. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/7545/475/400/2/w/491/7545475400_2_1_1.jpg?ts=1674030079028",
+      "https://static.zara.net/photos///2023/V/0/1/p/7545/475/400/2/w/491/7545475400_1_1_1.jpg?ts=1674030079594",
+      "https://static.zara.net/photos///2023/V/0/1/p/7545/475/400/2/w/491/7545475400_2_2_1.jpg?ts=1674030078638",
+      "https://static.zara.net/photos///2023/V/0/1/p/7545/475/400/2/w/491/7545475400_2_3_1.jpg?ts=1674030078648",
+      "https://static.zara.net/photos///2023/V/0/1/p/7545/475/400/2/w/491/7545475400_2_4_1.jpg?ts=1674030079591",
+      "https://static.zara.net/photos///2023/V/0/1/p/7545/475/400/2/w/491/7545475400_2_5_1.jpg?ts=1674030080458",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/400/2/w/491/7545475400_6_1_1.jpg?ts=1673524293006",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/400/2/w/491/7545475400_6_2_1.jpg?ts=1673524295654",
+      "https://static.zara.net/photos///2023/V/0/2/p/7545/475/400/2/w/491/7545475400_6_3_1.jpg?ts=1673524318736"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "short",
+    "material": {"cotton": 100},
+    "fit": "regular",
+    "colour": ["blue", "green", "red", "orange", "white", "print", "multicoloured"],
+    "title": "ABSTRACT PRINT SHIRT",
+    "text": "Boxy fit shirt with a camp collar and short sleeves. Cropped. Button-up front.",
+    "price": 25.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/455/330/2/w/491/6085455330_2_1_1.jpg?ts=1677770619119",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/455/330/2/w/491/6085455330_1_1_1.jpg?ts=1677770621431",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/455/330/2/w/491/6085455330_2_2_1.jpg?ts=1677770618255",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/455/330/2/w/491/6085455330_2_3_1.jpg?ts=1677770621599",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/455/330/2/w/491/6085455330_2_4_1.jpg?ts=1677770622541",
+      "https://static.zara.net/photos///2023/V/0/1/p/6085/455/330/2/w/491/6085455330_2_5_1.jpg?ts=1677770618585",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/455/330/2/w/491/6085455330_6_1_1.jpg?ts=1676885279892",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/455/330/2/w/491/6085455330_6_2_1.jpg?ts=1676885280044",
+      "https://static.zara.net/photos///2023/V/0/2/p/6085/455/330/2/w/491/6085455330_6_3_1.jpg?ts=1676885302814"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"cotton": 100},
+    "fit": "relaxed",
+    "colour": ["white", "blue", "orange"],
+    "title": "STRIPED POPLIN SHIRT",
+    "text": "Relaxed fit collared shirt made of cotton. Long sleeves with buttoned cuffs. Chest patch pocket. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_2_1_1.jpg?ts=1672315949366",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_1_1_1.jpg?ts=1672315949938",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_2_2_1.jpg?ts=1672315949544",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_2_3_1.jpg?ts=1672315949635",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_2_4_1.jpg?ts=1672315949733",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_2_5_1.jpg?ts=1672315983124",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_6_1_1.jpg?ts=1677756247773",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_6_2_1.jpg?ts=1677756247950",
+      "https://static.zara.net/photos///2023/V/0/2/p/0975/414/712/2/w/491/0975414712_6_3_1.jpg?ts=1677756249453"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "short",
+    "material": {"polyester": 100},
+    "fit": "regular",
+    "colour": ["red", "black", "orange", "white", "print", "multicoloured"],
+    "title": "PRINTED KNIT SHIRT",
+    "text": "Lightweight knit bowling shirt. Short sleeves. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_2_1_1.jpg?ts=1678983464005",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_1_1_1.jpg?ts=1678983388109",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_2_2_1.jpg?ts=1678983458857",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_2_3_1.jpg?ts=1678983379854",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_2_4_1.jpg?ts=1678983389432",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_2_5_1.jpg?ts=1678983391517",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_6_1_1.jpg?ts=1677492998735",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_6_2_1.jpg?ts=1677492998699",
+      "https://static.zara.net/photos///2023/V/0/2/p/4231/408/251/2/w/491/4231408251_6_3_1.jpg?ts=1677493005671"
+    ],
+    "sale": 8
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"polyester": 100},
+    "fit": "regular",
+    "colour": ["blue", "black", "orange", "green", "print", "multicoloured"],
+    "title": "ABSTRACT PRINT SHIRT",
+    "text": "Regular fit shirt. Spread collar and long sleeves with buttoned cuffs. Chest patch pocket. Button-up front.",
+    "price": 32.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_2_1_1.jpg?ts=1676890802918",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_1_1_1.jpg?ts=1676890803218",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_2_2_1.jpg?ts=1676890801775",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_2_3_1.jpg?ts=1676890826214",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_2_4_1.jpg?ts=1676890829997",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_6_1_1.jpg?ts=1675853981755",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_6_2_1.jpg?ts=1675853981476",
+      "https://static.zara.net/photos///2023/V/0/2/p/4458/821/030/2/w/491/4458821030_6_3_1.jpg?ts=1675853982706"
+    ]
+  },
+  {
+    "cat": "men",
+    "sleeve": "long",
+    "material": {"polyester": 67, "viscose": 32},
+    "fit": "regular",
+    "colour": ["grey"],
+    "title": "TEXTURED SHIRT WITH POCKET",
+    "text": "Regular fit collared shirt made of an elastic textured fabric. Long sleeves with buttoned cuffs. Chest patch pocket. Button-up front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2022/I/0/1/p/7545/490/801/2/w/491/7545490801_2_1_1.jpg?ts=1669651243210",
+      "https://static.zara.net/photos///2022/I/0/1/p/7545/490/801/2/w/491/7545490801_1_1_1.jpg?ts=1669651243514",
+      "https://static.zara.net/photos///2022/I/0/1/p/7545/490/801/2/w/491/7545490801_2_2_1.jpg?ts=1669651246579",
+      "https://static.zara.net/photos///2022/I/0/1/p/7545/490/801/2/w/491/7545490801_2_3_1.jpg?ts=1669651348374",
+      "https://static.zara.net/photos///2022/I/0/1/p/7545/490/801/2/w/491/7545490801_2_4_1.jpg?ts=1669651243287",
+      "https://static.zara.net/photos///2022/I/0/1/p/7545/490/801/2/w/491/7545490801_2_5_1.jpg?ts=1669651242127",
+      "https://static.zara.net/photos///2022/I/0/2/p/7545/490/801/2/w/491/7545490801_6_1_1.jpg?ts=1669302853405",
+      "https://static.zara.net/photos///2022/I/0/2/p/7545/490/801/2/w/491/7545490801_6_2_1.jpg?ts=1669302854321",
+      "https://static.zara.net/photos///2022/I/0/2/p/7545/490/801/2/w/491/7545490801_6_3_1.jpg?ts=1669302877106"
+    ],
+    "sale": 10
+  },
+  {
+    "cat": "women",
+    "material": {"cotton": 100},
+    "colour": ["turqoise", "white"],
+    "title": "PRINTED MIDI DRESS",
+    "text": "Sleeveless midi dress made of cotton. Round neck. Adjustable belt with buckle lined in the same fabric. Darted detailing on the front. Invisible side zip fastening.",
+    "price": 49.99,
+    "img": [
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_1_1_1.jpg?ts=1685521364539",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_2_1_1.jpg?ts=1685521368110",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_2_2_1.jpg?ts=1685521365108",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_2_3_1.jpg?ts=1685521362892",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_2_4_1.jpg?ts=1685521366866",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_6_1_1.jpg?ts=1684136360391",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_6_2_1.jpg?ts=1684136360528",
+      "https://static.zara.net/photos///2023/I/0/1/p/7730/021/402/2/w/491/7730021402_6_3_1.jpg?ts=1684136360981"
+    ],
+    "sale": 18
+  },
+  {
+    "cat": "women",
+    "material": {"polyester": 96, "elastane": 4},
+    "colour": ["white", "green", "blue"],
+    "title": "STRIPED MINI DRESS",
+    "text": "Collared dress with a V-neck and long sleeves. Front snap-button fastening.",
+    "price": 29.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/12/w/491/2491121069_1_1_1.jpg?ts=1677497045852",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/12/w/491/2491121069_2_1_1.jpg?ts=1677497044595",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/12/w/491/2491121069_2_2_1.jpg?ts=1677497049758",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/12/w/491/2491121069_2_3_1.jpg?ts=1677497045330",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/12/w/491/2491121069_2_4_1.jpg?ts=1677497049015",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/2/w/491/2491121069_6_1_1.jpg?ts=1675179883858",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/2/w/491/2491121069_6_2_1.jpg?ts=1675179886907",
+      "https://static.zara.net/photos///2023/V/0/1/p/2491/121/069/2/w/491/2491121069_6_3_1.jpg?ts=1675179914430"
+    ],
+    "sale": 15
+  },
+  {
+    "cat": "women",
+    "material": {"polyester": 90, "elastane": 10},
+    "colour": ["black"],
+    "title": "SHORT SHIRT DRESS",
+    "text": "Collared dress with long sleeves. Ruffled hem. Buttoned front.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_1_1_1.jpg?ts=1672158876074",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_2_1_1.jpg?ts=1672158878646",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_2_2_1.jpg?ts=1672158877528",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_2_3_1.jpg?ts=1672158879663",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_2_4_1.jpg?ts=1672158879301",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_6_1_1.jpg?ts=1672065272188",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_6_2_1.jpg?ts=1672065272287",
+      "https://static.zara.net/photos///2023/V/0/1/p/2361/880/800/2/w/491/2361880800_6_3_1.jpg?ts=1672065275096"
+    ],
+    "sale": 5
+  },
+  {
+    "cat": "women",
+    "material": {"viscose": 100},
+    "colour": ["black"],
+    "title": "LONG VISCOSE DRESS",
+    "text": "Long dress made of viscose. Round neck with adjustable ties and long sleeves with elastic trims.",
+    "price": 49.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_1_1_1.jpg?ts=1681813904497",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_2_1_1.jpg?ts=1681813898565",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_2_2_1.jpg?ts=1681813901058",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_2_3_1.jpg?ts=1681813903689",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_2_4_1.jpg?ts=1681813895116",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_6_1_1.jpg?ts=1681380451020",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_6_2_1.jpg?ts=1681380450908",
+      "https://static.zara.net/photos///2023/V/0/1/p/4043/050/800/2/w/491/4043050800_6_3_1.jpg?ts=1681380453713"
+    ],
+    "sale": 10
+  },
+  {
+    "cat": "women",
+    "material": {"polyester": 100},
+    "colour": ["green", "print", "multicoloured"],
+    "title": "FLORAL PRINT DRESS",
+    "text": "Short dress with a round neck and long sleeves. Metallic thread detail and smocking on the front. Lining. Ruffled hem. Opening at the front with matching covered button.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_1_1_1.jpg?ts=1676026264269",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_2_1_1.jpg?ts=1676026255783",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_2_4_1.jpg?ts=1676026267511",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_2_3_1.jpg?ts=1676026217502",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_2_5_1.jpg?ts=1676026261503",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_6_1_1.jpg?ts=1675876941149",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_6_2_1.jpg?ts=1675876940196",
+      "https://static.zara.net/photos///2023/V/0/1/p/2537/761/330/2/w/491/2537761330_6_3_1.jpg?ts=1675877009744"
+    ],
+    "sale": 6
+  },
+  {
+    "cat": "women",
+    "material": {"viscose": 100},
+    "colour": ["green", "print", "multicoloured"],
+    "title": "PRINTED MINI DRESS",
+    "text": "V-neck dress with long sleeves. Invisible side zip fastening.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_1_1_1.jpg?ts=1676479190731",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_2_1_1.jpg?ts=1676479199841",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_2_1_1.jpg?ts=1676479199841",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_2_4_1.jpg?ts=1676479167753",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_2_5_1.jpg?ts=1676479193120",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_6_1_1.jpg?ts=1676453151574",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_6_2_1.jpg?ts=1676453130083",
+      "https://static.zara.net/photos///2023/V/0/1/p/3666/082/098/2/w/491/3666082098_6_3_1.jpg?ts=1676453178231"
+    ],
+    "sale": 5
+  },
+  {
+    "cat": "women",
+    "material": {"polyester": 100},
+    "colour": ["white", "black", "red"],
+    "title": "ASYMMETRIC PRINTED KAFTAN",
+    "text": "Oversize V-neck kaftan with sleeves falling below the elbow. Asymmetric hem.",
+    "price": 32.99,
+    "img": [
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_1_1_1.jpg?ts=1685022467866",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_2_1_1.jpg?ts=1685022466271",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_2_2_1.jpg?ts=1685022467839",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_2_3_1.jpg?ts=1685022468115",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_2_4_1.jpg?ts=1685022467653",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_6_1_1.jpg?ts=1685003091068",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_6_2_1.jpg?ts=1685003090861",
+      "https://static.zara.net/photos///2023/I/0/1/p/5216/241/064/2/w/491/5216241064_6_3_1.jpg?ts=1685003096355"
+    ],
+    "sale": 12
+  },
+  {
+    "cat": "women",
+    "material": {"cotton": 100},
+    "colour": ["blue"],
+    "title": "LONG DENIM DRESS",
+    "text": "Long dress made of cotton. Featuring a V-neckline, long sleeves with cuffs, front pleat detail and a frayed hem.",
+    "price": 39.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/12/w/491/5216052400_1_1_1.jpg?ts=1682508396429",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/12/w/491/5216052400_2_1_1.jpg?ts=1682508395905",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/12/w/491/5216052400_2_2_1.jpg?ts=1682508399652",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/12/w/491/5216052400_2_3_1.jpg?ts=1682508398846",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/12/w/491/5216052400_2_4_1.jpg?ts=1682508398840",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/2/w/491/5216052400_6_1_1.jpg?ts=1675244328163",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/2/w/491/5216052400_6_2_1.jpg?ts=1675244334109",
+      "https://static.zara.net/photos///2023/V/0/1/p/5216/052/400/2/w/491/5216052400_6_3_1.jpg?ts=1675244336775"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"cotton": 100},
+    "colour": ["white", "black"],
+    "title": "EMBROIDERED MIDI DRESS",
+    "text": "Midi dress made of cotton. Round neck with buttoned opening. Short sleeves. Contrast embroidery details.",
+    "price": 32.99,
+    "img": [
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_1_1_1.jpg?ts=1686126003045",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_2_1_1.jpg?ts=1686126002748",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_2_2_1.jpg?ts=1686126002867",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_2_3_1.jpg?ts=1686126002931",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_2_4_1.jpg?ts=1686126003082",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_6_1_1.jpg?ts=1685975533411",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_6_2_1.jpg?ts=1685975533494",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/242/064/2/w/491/6895242064_6_3_1.jpg?ts=1685975536151"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"cotton": 53, "polyester": 47},
+    "colour": ["multicoloured"],
+    "title": "STRIPED KNIT DRESS",
+    "text": "Sleeveless collared mini dress. Front patch pockets. Button-up front.",
+    "price": 19.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_1_1_1.jpg?ts=1680606878990",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_2_1_1.jpg?ts=1680606875120",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_2_2_1.jpg?ts=1680606878785",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_2_3_1.jpg?ts=1680606879652",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_2_4_1.jpg?ts=1680606875206",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_6_1_1.jpg?ts=1680535017837",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_6_2_1.jpg?ts=1680535017413",
+      "https://static.zara.net/photos///2023/V/0/1/p/6427/011/330/2/w/491/6427011330_6_3_1.jpg?ts=1680535017809"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"polyamide": 93, "elastane": 7},
+    "colour": ["grey"],
+    "title": "SEAMLESS DRESS WITH GATHERED DETAILS",
+    "text": "Sleeveless dress with a round neckline. Gathered details with ties on the sides.",
+    "price": 12.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_1_1_1.jpg?ts=1676378736516",
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_2_1_1.jpg?ts=1676378738737",
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_2_2_1.jpg?ts=1676378736203",
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_2_3_1.jpg?ts=1676378736116",
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_6_1_1.jpg?ts=1676361600733",
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_6_2_1.jpg?ts=1676361600018",
+      "https://static.zara.net/photos///2023/V/0/1/p/1014/323/807/2/w/491/1014323807_6_3_1.jpg?ts=1676361633863"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"viscose": 100 },
+    "colour": ["green", "blue", "print"],
+    "title": "PRINTED MIDI DRESS",
+    "text": "Midi dress made of viscose. Featuring a straight neckline, wide straps with bead appliqués, an elastic waist and lining.",
+    "price": 39.99,
+    "img": [
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_1_1_1.jpg?ts=1685693896344",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_2_1_1.jpg?ts=1685693898176",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_2_2_1.jpg?ts=1685693897094",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_2_4_1.jpg?ts=1685693895502",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_6_1_1.jpg?ts=1685619483764",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_6_2_1.jpg?ts=1685619485608",
+      "https://static.zara.net/photos///2023/I/0/1/p/6895/243/518/2/w/491/6895243518_6_3_1.jpg?ts=1685619488613"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"polyester": 100},
+    "colour": ["blue", "white", "print"],
+    "title": "PRINTED MIDI DRESS",
+    "text": "Dress featuring a V-neck and long wide cuffed sleeves. Back slit at the hem.",
+    "price": 39.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/17/w/491/2700122330_1_1_1.jpg?ts=1682503992997",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/17/w/491/2700122330_2_1_1.jpg?ts=1682503988815",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/17/w/491/2700122330_2_2_1.jpg?ts=1682503991722",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/17/w/491/2700122330_2_3_1.jpg?ts=1682503991895",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/17/w/491/2700122330_2_4_1.jpg?ts=1682503993431",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/2/w/491/2700122330_6_1_1.jpg?ts=1681918701555",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/2/w/491/2700122330_6_2_1.jpg?ts=1681918701796",
+      "https://static.zara.net/photos///2023/V/0/1/p/2700/122/330/2/w/491/2700122330_6_3_1.jpg?ts=1681918702004"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"polyester": 100},
+    "colour": ["black"],
+    "title": "MIDI DRESS WITH DRAPED DETAIL",
+    "text": "Fitted dress made of knit fabric with a straight neckline and exposed shoulders. Draped fabric. Invisible side zip fastening.",
+    "price": 29.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/17/w/491/3152335800_1_1_1.jpg?ts=1678278678747",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/17/w/491/3152335800_2_1_1.jpg?ts=1678278678865",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/17/w/491/3152335800_2_2_1.jpg?ts=1678278677744",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/17/w/491/3152335800_2_3_1.jpg?ts=1678278677686",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/17/w/491/3152335800_2_4_1.jpg?ts=1678278678965",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/2/w/491/3152335800_6_1_1.jpg?ts=1676537095466",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/2/w/491/3152335800_6_2_1.jpg?ts=1676537094284",
+      "https://static.zara.net/photos///2023/V/0/1/p/3152/335/800/2/w/491/3152335800_6_3_1.jpg?ts=1676537096555"
+    ]
+  },
+  {
+    "cat": "women",
+    "material": {"polyamide": 68, "viscose": 32},
+    "colour": ["black"],
+    "title": "KNIT DRESS WITH CONTRAST EMBROIDERY",
+    "text": "Sleeveless round neck dress. Combined lace fabric detail. Buttoned opening at the back.",
+    "price": 22.99,
+    "img": [
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_1_1_1.jpg?ts=1681462994718",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_2_1_1.jpg?ts=1681463050965",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_2_2_1.jpg?ts=1681463029342",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_2_3_1.jpg?ts=1681462993618",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_2_4_1.jpg?ts=1681462994568",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_6_1_1.jpg?ts=1681371802086",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_6_2_1.jpg?ts=1681371800005",
+      "https://static.zara.net/photos///2023/V/0/1/p/2488/009/800/2/w/491/2488009800_6_3_1.jpg?ts=1681371799512"
+    ]
+  }
+]
