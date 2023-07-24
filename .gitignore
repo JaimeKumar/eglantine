@@ -12,6 +12,9 @@ server/
 # production
 /build
 
+elantine graphics.svg
+elantine-cart.svg
+
 # misc
 .DS_Store
 .env.local
