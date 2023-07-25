@@ -12,7 +12,7 @@ export default function Item({ item, catalog, buy }) {
     let x = catalog.find(x => x.id === item);
 
     function selectSize(e) {
-        ['0', '1', '2', '3', '4'].forEach(e => {
+        ['XS', 'S', 'M', 'L', 'XL'].forEach(e => {
             $(`#${e}`).removeClass('selected')
         })
         $(`#${e.target.id}`).addClass('selected');
@@ -61,11 +61,11 @@ export default function Item({ item, catalog, buy }) {
         <h4>SIZE</h4>
         <br />
         <div className="sizes">
-            <p id='0' onClick={selectSize}>XS</p>
-            <p id='1' onClick={selectSize}>S</p>
-            <p id='2' onClick={selectSize}>M</p>
-            <p id='3' onClick={selectSize}>L</p>
-            <p id='4' onClick={selectSize}>XL</p>
+            <p id='XS' onClick={selectSize}>XS</p>
+            <p id='S' onClick={selectSize}>S</p>
+            <p id='M' onClick={selectSize}>M</p>
+            <p id='L' onClick={selectSize}>L</p>
+            <p id='XL' onClick={selectSize}>XL</p>
         </div>
         <div className="buyButton" onClick={() => {buy(item, size)}}>
             ADD TO BASKET
