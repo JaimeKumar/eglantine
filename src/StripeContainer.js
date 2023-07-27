@@ -16,8 +16,8 @@ export default function StripeContainer({ amount, cartOk, items }) {
   async function getSecret() {
     if (amount > 1 && !success) {
       try {
-        const res = await axios.post('http://localhost:4000/createIntent', {
-        // const res = await axios.post('https://eglantine-server.onrender.com/createIntent', {
+        // const res = await axios.post('http://localhost:4000/createIntent', {
+        const res = await axios.post('https://eglantine-server.onrender.com/createIntent', {
           amount: Math.round(amount * 100),
           items: items
         })
