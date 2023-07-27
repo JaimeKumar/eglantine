@@ -3,7 +3,7 @@ import { v4 as uuid } from 'uuid';
 import { useState, useEffect, useRef } from 'react';
 import $ from 'jquery';
 
-import catalogRaw from './catalog.json'
+import catalog from './catalog.json'
 import FilterControl from './FilterControl';
 import ShopItem from './ShopItem';
 import Item from './Item';
@@ -17,10 +17,6 @@ import logoText from './logoWMwhite.png'
 import logoHead from './logoWMHeadWhite.png'
 import navcartWhite from './nav-cart-white.png'
 
-const catalog = catalogRaw.map(item => {
-  item.id = uuid();
-  return item;
-})
 
 function App() {
 
@@ -107,6 +103,9 @@ function App() {
 
   const [cart, setCart] = useState([])
   const [cartTotal, setCartTotal] = useState(0)
+  const [cartCompleted, setCartCompleted] = useState(false);
+  const [orderCompleted, setOrderCompleted] = useState(false);
+  const [onCheckout, setOnCheckout] = useState(false);
 
   const filterControls = {
     'Sleeve length': <FilterControl key={uuid()} category={filterVals['Sleeve length']} catTitle={'Sleeve length'} filterChange={changeFilter} avail={avail} clickFilter={filterClicked} />,
@@ -155,7 +154,6 @@ function App() {
       setLogo(0)
     }
 
-    // $('#pages').css('top', 90 - (n * +($('#home').css('height').slice(0, -2))) + 'px')
     $('#pages').css('top', ((n) * -100 + 'vh'))
   }
 
@@ -173,7 +171,6 @@ function App() {
   }
 
   function addToCart(item, size) {
-    console.log(size);
     let nu = [...cart];
     if (nu.map(x => x.id).indexOf(item) >= 0) {
       nu.find(x => x.id === item).q++;
@@ -197,11 +194,17 @@ function App() {
 
   function checkout() {
     hideCart();
+    setOnCheckout(true)
     link(3);
   }
 
   function hideCart() {
     $('.cartBox').toggleClass('hideCart')
+  }
+  
+  function showCart() {
+    if (onCheckout) return;
+    $('.cartBox').removeClass('hideCart')
   }
 
   function openDropdown(id) {
@@ -211,7 +214,7 @@ function App() {
   function setSize(id, size) {
     openDropdown(id+'window');
     let nu = [...cart];
-    cart.find(x=>x.id === id).size = size;
+    nu.find(x=>x.id === id).size = size;
     setCart(nu);
   }
 
@@ -238,7 +241,15 @@ function App() {
     cart.forEach(item => {
       if (!item.size) res = false;
     })
-    return res;
+    if (cart.length < 1) res = false;
+    console.log(res);
+    setCartCompleted(res);
+  }
+
+  function continuetopay() {
+    if (cartCompleted) {
+      setOrderCompleted(true)
+    }
   }
   
   useEffect(() => {
@@ -250,7 +261,11 @@ function App() {
   }, [])
 
   useEffect(() => {
+    setOrderCompleted(false);
+    setOnCheckout(false);
     setCartTotal((Math.round(cart.reduce((rolling, x) => rolling + (x.q * catalog.find(n => n.id === x.id).price), 0) * 100)) / 100)
+    cartOk();
+    showCart();
   }, [cart])
 
   useEffect(() => {
@@ -440,81 +455,84 @@ function App() {
 
         <div className="page" id="checkout">
           <h1>CHECKOUT</h1>
-          <div className='checkoutSplit'>
-            {cart.length < 1 ? <p>Your basket is empty.</p> : 
+            {orderCompleted ? 
+              <div className='payment'>
+                <StripeContainer amount={cartTotal} items={cart} cartOk={cartOk} />
+              </div>
+            :
+            cart.length < 1 ? <p>Your basket is empty.</p> : 
               <>
-
-                  <table id="checkoutCart">
-                    <tr>
-                      <th>Item</th>
+                <table id="checkoutCart">
+                  <tr>
+                    <th>Item</th>
+                    <td></td>
+                    <th>Quantity</th>
+                    <td></td>
+                    <th>Size</th>
+                    <td></td>
+                    <th>Price</th>
+                  </tr>
+                  {cart.map(item => {
+                    let catItem = catalog.find(x => x.id === item.id)
+                    let sizes = ['XS', 'S', 'M', 'L', 'XL']
+                    let dropTop = sizes.indexOf(item.size) * -30 + 'px';
+                    return <tr>
+                      <td>
+                        <div className="itemSlip">
+                          <img src={catItem.img[0]} alt="" />
+                          <p>{catItem.title}</p>
+                        </div>
+                      </td>
                       <td></td>
-                      <th>Quantity</th>
+                      <td>
+                        <div className="numerator">
+                          <div className="remove" onClick={() => {adjustQ(-1, item.id)}}><div className="minus"></div></div>
+                          {item.q}
+                          <div className="add" onClick={() => {adjustQ(1, item.id)}}>+</div>
+                        </div>
+                      </td>
                       <td></td>
-                      <th>Size</th>
-                      <td></td>
-                      <th>Price</th>
-                    </tr>
-                    {cart.map(item => {
-                      let catItem = catalog.find(x => x.id === item.id)
-                      let sizes = ['XS', 'S', 'M', 'L', 'XL']
-                      let dropTop = sizes.indexOf(item.size) * -30 + 'px';
-                      return <tr>
-                        <td>
-                          <div className="itemSlip">
-                            <img src={catItem.img[0]} alt="" />
-                            <p>{catItem.title}</p>
-                          </div>
-                        </td>
-                        <td></td>
-                        <td>
-                          <div className="numerator">
-                            <div className="remove" onClick={() => {adjustQ(-1, item.id)}}><div className="minus"></div></div>
-                            {item.q}
-                            <div className="add" onClick={() => {adjustQ(1, item.id)}}>+</div>
-                          </div>
-                        </td>
-                        <td></td>
-                        <td>
-                          <div id='sizeDrop' className={item.size ? 'dropdown' : 'dropdown empty'}>
-                            <div className="dropdownWindow" id={item.id+'window'}>
-                              <div className="arrow"></div>
-                              <div className="options">
-                                <div className="option" onClick={() => {openDropdown(item.id+'window')}}>{item.size}</div>
-                                {sizes.map((size) => {
-                                  if (size === item.size) return;
-                                  return <div className="option" onClick={() => {setSize(item.id, size)}}>{size}</div>
-                                })}
-                              </div>
+                      <td>
+                        <div id='sizeDrop' aria-disabled={cartCompleted} className={item.size ? 'dropdown' : 'dropdown empty'}>
+                          <div className="dropdownWindow" id={item.id+'window'}>
+                            <div className="arrow"></div>
+                            <div className="options">
+                              <div className="option" onClick={() => {openDropdown(item.id+'window')}}>{item.size}</div>
+                              {sizes.map((size) => {
+                                if (size === item.size) return;
+                                return <div className="option" onClick={() => {console.log(size); setSize(item.id, size)}}>{size}</div>
+                              })}
                             </div>
                           </div>
-                        </td>
-                        <td></td>
-                        <td>
-                          £{catItem.price}
-                        </td>
-                      </tr>
-                    })}
-                    <hr />
-                    <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td>
-                        <b>Total</b>
+                        </div>
                       </td>
+                      <td></td>
                       <td>
-                        <b>£{cartTotal}</b>
+                        £{catItem.price}
                       </td>
                     </tr>
-                  </table>
+                  })}
+                  <hr />
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <b>Total</b>
+                    </td>
+                    <td>
+                      <b>£{cartTotal}</b>
+                    </td>
+                  </tr>
+                </table>
+                <button onClick={continuetopay} disabled={!cartCompleted} style={{width: '200px', right: '15px'}}>
+                  Continue to pay
+                </button>
               </>
-            }
-            <div className='payment'>
-              <StripeContainer amount={cartTotal} conf={uuid()} cartOk={cartOk}/>
-            </div>
-          </div>
+            
+          }
         </div>
       </div>
 
