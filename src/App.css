@@ -63,7 +63,6 @@ h1 {
   top: 0;
   transition: left 0.6s;
   z-index: 100;
-  background: linear-gradient(#b7c4ff, #ffd7db);
   padding-top: 25px;
 }
 
@@ -73,9 +72,13 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   column-gap: clamp(5px, 1.6vw, 45px);
-  color: white;
+  color: black;
   row-gap: 20px;
   padding-left: 15%;
+ }
+
+ .sideMenu li {
+    font-size: var(--fs-tiny);
  }
 
 .menuOpen {
@@ -112,9 +115,8 @@ h1 {
 #menuButton {
   display: none;
   left: 5vw;
-  color: white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid var(--navColor);
+  border-bottom: 2px solid var(--navColor);
   width: 15px;
   height: 15px;
   cursor: pointer;
@@ -123,7 +125,7 @@ h1 {
 #line {  
   width: 15px;
   height: 2px;
-  background-color: white;
+  background-color: var(--navColor);
   position: relative;
   top: 5px;
 }
@@ -333,11 +335,11 @@ li {
   color: white;
   font-size: var(--fs-lil);
   position: absolute;
-  left: 100px;
+  left: 25px;
   top: 150px;
   z-index: 1;
   font-family: 'Montserrat';
-  width: 400px;
+  width: clamp(300px, 50vw, 400px);
   backdrop-filter: blur(3px);
 }
 
@@ -398,6 +400,7 @@ li {
   display: flex;
   overflow-y: scroll;
   padding-right: clamp(15px, 2vw, 50px);
+  position: relative;
 }
 
 h3 {
