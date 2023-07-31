@@ -73,7 +73,7 @@ export default function Item({ item, catalog, buy }) {
         <hr />
         <br />
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
-            <div style={{display: 'block'}}>
+            <div style={{paddingBottom: '30px'}}>
                 <h4>MATERIALS</h4>
                 {Object.keys(x.material).map(material => {
                     return <p>{`${material.slice(0, 1).toUpperCase() + material.slice(1)}: ${x.material[material]}%`}</p>
@@ -81,8 +81,8 @@ export default function Item({ item, catalog, buy }) {
             </div>
             {fit}
         </div>
-        <br />
-        <hr />
+        {/* <br /> */}
+        {/* <hr /> */}
         </div>
         
      
