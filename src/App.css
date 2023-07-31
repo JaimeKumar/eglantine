@@ -319,6 +319,7 @@ li {
   color: white;
   top: 30%;
   left: 0;
+  padding: 0 15px;
 }
 
 .banner h1 {
@@ -623,6 +624,7 @@ h4 {
   font-family: 'Montserrat';
   font-weight: 100;
   transform: scale(0.9);
+  padding-bottom: 50px;
 }
 
 p {
