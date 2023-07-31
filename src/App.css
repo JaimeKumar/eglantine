@@ -985,8 +985,8 @@ button:active {
   .itemGallery {
     flex-direction: row;
     justify-content: flex-start;
-    width: 80%;
-    max-height: 80vh;
+    width: 85%;
+    max-height: 75vh;
   }
 
   .galleryCol {
