@@ -82,6 +82,7 @@ export default function Item({ item, catalog, buy }) {
             {fit}
         </div>
         <br />
+        <hr />
         </div>
         
      
