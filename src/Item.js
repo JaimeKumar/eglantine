@@ -50,39 +50,37 @@ export default function Item({ item, catalog, buy }) {
             </div>
         </div>
         
-      <div className="itemText">
-        <h3>{x.title}</h3>
-        <br />
-        <p>{x.text}</p>
-        <br />
-        {price}
-        <hr />
-        <br />
-        <h4>SIZE</h4>
-        <br />
-        <div className="sizes">
-            <p id='XS' onClick={selectSize}>XS</p>
-            <p id='S' onClick={selectSize}>S</p>
-            <p id='M' onClick={selectSize}>M</p>
-            <p id='L' onClick={selectSize}>L</p>
-            <p id='XL' onClick={selectSize}>XL</p>
-        </div>
-        <div className="buyButton" onClick={() => {buy(item, size)}}>
-            ADD TO BASKET
-        </div>
-        <hr />
-        <br />
-        <div style={{display: 'flex', justifyContent: 'space-between'}}>
-            <div style={{paddingBottom: '30px'}}>
-                <h4>MATERIALS</h4>
-                {Object.keys(x.material).map(material => {
-                    return <p>{`${material.slice(0, 1).toUpperCase() + material.slice(1)}: ${x.material[material]}%`}</p>
-                })}
+        <div className="itemText">
+            <h3>{x.title}</h3>
+            <br />
+            <p>{x.text}</p>
+            <br />
+            {price}
+            <hr />
+            <br />
+            <h4>SIZE</h4>
+            <br />
+            <div className="sizes">
+                <p id='XS' onClick={selectSize}>XS</p>
+                <p id='S' onClick={selectSize}>S</p>
+                <p id='M' onClick={selectSize}>M</p>
+                <p id='L' onClick={selectSize}>L</p>
+                <p id='XL' onClick={selectSize}>XL</p>
             </div>
-            {fit}
-        </div>
-        {/* <br /> */}
-        {/* <hr /> */}
+            <div className="buyButton" onClick={() => {buy(item, size)}}>
+                ADD TO BASKET
+            </div>
+            <hr />
+            <br />
+            <div style={{display: 'flex', justifyContent: 'space-between', paddingBottom: '30px'}}>
+                <div>
+                    <h4>MATERIALS</h4>
+                    {Object.keys(x.material).map(material => {
+                        return <p>{`${material.slice(0, 1).toUpperCase() + material.slice(1)}: ${x.material[material]}%`}</p>
+                    })}
+                </div>
+                {fit}
+            </div>
         </div>
         
      
