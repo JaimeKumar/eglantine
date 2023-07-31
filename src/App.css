@@ -986,7 +986,7 @@ button:active {
     flex-direction: row;
     justify-content: flex-start;
     width: 80%;
-    /* max-height: 80vh; */
+    max-height: 80vh;
   }
 
   .galleryCol {
