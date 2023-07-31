@@ -335,7 +335,7 @@ li {
   color: white;
   font-size: var(--fs-lil);
   position: absolute;
-  left: 25px;
+  left: clamp(15px, 10vw - 0.5rem, 200px);
   top: 150px;
   z-index: 1;
   font-family: 'Montserrat';
@@ -524,10 +524,6 @@ h4 {
 
 .shopImgs img {
   width: 50%;
-}
-
-.shopItem:hover .shopImgs {
-  transform: translateX(-50%);
 }
 
 .shopText {
@@ -939,6 +935,12 @@ button:active {
 
 /* try two semicircles that have linear gradients but would need a hole in the middle? */
 
+@media only screen and (min-width: 900px) {
+  .shopItem:hover .shopImgs {
+    transform: translateX(-50%);
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .itemGallery {
     flex-direction: column;
@@ -977,6 +979,7 @@ button:active {
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
+    max-height: 80vh;
   }
 
   .galleryCol {
@@ -1060,10 +1063,7 @@ button:active {
 
   .itemSlip p {
     display: none;
-  }
-
-  
-  
+  } 
 }
 
 @keyframes clouds {
